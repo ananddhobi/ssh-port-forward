@@ -1,9 +1,9 @@
 #!/bin/bash
 ###################################################################
-#Script Name	:   portforward.sh                                                                                           
-#Description	:   forward port from local machine to remote machine                                                                                                                                                                       
-#Author       	:Anand Dhobi                                              
-#Email         	:                                          
+#Script Name	:    portforward.sh                                                                                           
+#Description	:    forward port from local machine to remote machine                                                                                                                                                                       
+#Author       	:    Anand Dhobi                                              
+#Creation Date  :    31-10-2022                                      
 ###################################################################
 
 TOTAL_OPEN_PORT=`ps -aux| grep -i "ssh -o StrictHostKeyChecking=no -f -N -R" | grep -v grep |wc -l`
