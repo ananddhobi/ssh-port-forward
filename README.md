@@ -5,7 +5,7 @@ How to use
 1. git clone https://github.com/ananddhobi/ssh-port-forward.git
 2. cd ssh-port-forward
 3. chmod +x portforward.sh
-
+4. ./portforward.sh
 
 
 
