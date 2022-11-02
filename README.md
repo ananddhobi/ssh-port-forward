@@ -12,8 +12,8 @@ How to use
 note:- in script COUNT=3  --> total no. of ports you want to forward from loacl machine to remote server,change no. according to your use. 
 
 
-check all open ports (opened by script)
+Check all open ports (opened by script)
 ps -aux|grep "ssh -o StrictHostKeyChecking=no -f -N -R" | grep -v grep | awk {'print $2'}
 
-kill/close all ports opened by script
+Kill/Close all ports opened by script
 kill -9 `ps -aux|grep "ssh -o StrictHostKeyChecking=no -f -N -R" | grep -v grep | awk {'print $2'}`
