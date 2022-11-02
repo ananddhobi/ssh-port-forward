@@ -1,5 +1,4 @@
 #!/bin/bash
-#set -x
 ###################################################################
 #Script Name	:   portforward.sh                                                                                           
 #Description	:   forward port from local machine to remote machine                                                                                                                                                                       
@@ -105,7 +104,6 @@ exit
 else
 user_input
 check_if_port_already_running_on_remote_server
-#check_sshpass_status
 fi
 }
 
