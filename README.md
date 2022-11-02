@@ -11,3 +11,4 @@ How to use
 
 note:- in script COUNT=3  --> total no. of ports you want to forward from loacl machine to remote server,change no. according to your use. 
 
+![alt text](https://github.com/ananddhobi/ssh-port-forward/blob/main/kill_port.png)
